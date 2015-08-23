@@ -1,0 +1,4 @@
+<TD NOWRAP>
+ <INPUT TYPE="checkbox" NAME="filter_values" VALUE="{TD_CHECKBOX_VALUE}">{TD_CHECKBOX_TEXT}
+ {TD_TEXT}
+</TD>

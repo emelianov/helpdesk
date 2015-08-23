@@ -1,0 +1,3 @@
+<TD WIDTH=0%></TD>
+<TD NOWRAP><B>{HEADER_1}</B></TD>
+<TD NOWRAP><B>{HEADER_2}</B></TD>

@@ -1,0 +1,12 @@
+
+Set objUser = GetObject ("LDAP://cn={CN},{OUDC}") 
+'objUser.Put "givenName", "{FIRSTNAME}"
+'objUser.Put "initials", "{M}"
+'objUser.Put "sn", "{LASTNAME}"
+'objUser.Put "displayName", "{LASTNAME} {FIRSTNAME}"
+objUser.Put "physicalDeliveryOfficeName", "{ROOM} {BUILD}" 
+objUser.Put "telephoneNumber", "{PHONENUMBER}"
+objUser.Put "title", "{TITLE}"
+objUser.Put "department", "{DEPARTMENT}"
+objUser.Put "comment", "{LAB}\r\n{LASTLAB}"
+objUser.SetInfo
