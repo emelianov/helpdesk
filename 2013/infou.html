@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>File Uploading Form</title>
+</head>
+<body>
+<h3>File Upload:</h3>
+Select a file to upload: <br />
+<form action="infou.php" method="post" enctype="multipart/form-data" />
+<input type="hidden" name="MAX_FILE_SIZE" value="65535">
+<input type="file" name="file" id="file" size="50" />
+<input name="txtd" size="50" />
+
+<br />
+<input type="submit" value="Upload File" name="submit"/>
+</form>
+</body>
+</html>

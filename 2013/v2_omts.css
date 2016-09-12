@@ -1,0 +1,174 @@
+BODY	{
+		color		:	#DDD;
+		font		:	12px  Verdana, san-serif;
+		background	:	#040;
+		margin		:	0;
+		border		:	0;
+		padding		:	0;
+	}
+
+A:link, A:visited, A:active {
+		color		:	#DD8;
+		text-decoration	:	none;
+	}
+A:hover {
+		color		:	#FFB;
+		text-decoration	:	underline;
+	}
+
+.plain	{
+		color		:	#DDD;
+		font		:	12px  Verdana, san-serif;
+		background	:	#040;
+		text-align	:	justify;
+		margin		:	0;
+		border		:	0;
+		padding		:	1;
+		vertical-align	:	top;
+	}
+
+.green	{
+		color		:	#DDD;
+		font		:	12px  Verdana, san-serif;
+		background	:	#363;
+		text-align	:	justify;
+		margin		:	0;
+		border		:	0;
+		padding		:	0;
+		vertical-align	:	top;
+	}
+
+.red	{
+		color		:	#DDD;
+		font		:	12px  Verdana, san-serif;
+		background	:	#833;
+		text-align	:	justify;
+		margin		:	0;
+		border		:	0;
+		padding		:	0;
+		vertical-align	:	top;
+	}
+
+.purple	{
+		color		:	#DDD;
+		font		:	12px  Verdana, san-serif;
+		background	:	#666;
+		text-align	:	justify;
+		margin		:	0;
+		border		:	0;
+		padding		:	0;
+		vertical-align	:	top;
+	}
+
+
+.header	{
+		color		:	#EEE;
+		font-size	:	12px;
+		font-family	:	Verdana, san-serif;
+		font-weight	:	bold;
+		background	:	#224;
+		vertical-align	:	middle;
+		border-color	:	#050511 #448 #448 #050511;
+		border-style	:	solid;
+		border-top-width:	1px;
+		border-right-width:	1px;
+		border-bottom-width:	1px;
+		border-left-width:	1px;
+	}
+A.header:link, A.header:visited, A.header:active {
+		color		:	#BB8;
+		text-decoration	:	none;
+	}
+A.header:hover	{
+		color		:	#FFB;
+		text-decoration	:	underline;
+	}
+.list	{	color		:	#DDD;
+		font		:	10px  Verdana, san-serif;
+		background	:	#336;
+		line-height	:	10px;
+		text-align	:	left;
+		vertical-align	:	top;
+	}
+.edit	{
+		color		:	#224;
+		font-size	:	12px;
+		font-family	:	Verdana, san-serif;
+		font-weight	:	bold;
+		background	:	#CCC;
+		vertical-align	:	middle;
+		border-color	:	#050511 #448 #448 #050511;
+		border-style	:	solid;
+		border-top-width:	1px;
+		border-right-width:	1px;
+		border-bottom-width:	1px;
+		border-left-width:	1px;
+	}
+
+A.list:link, A.list:visited, A.list:active {
+		color		:	#DDD;
+		text-decoration	:	none;
+	}
+A.list:hover	{
+		color		:	#EEA;
+		text-decoration	:	underline;
+	}
+.menu	{
+		color		:	#EEE;
+		font-size	:	12px;
+		font-family	:	Verdana, san-serif;
+		font-weight	:	bold;
+		background	:	#224;
+		vertical-align	:	middle;
+		border-color	:	#050511 #448 #448 #050511;
+		border-style	:	solid;
+		border-top-width:	1px;
+		border-right-width:	1px;
+		border-bottom-width:	1px;
+		border-left-width:	1px;
+	}
+A.menu:link, A.menu:visited, A.menu:active {
+		color		:	#DD8;
+		text-decoration	:	none;
+	}
+A.menu:hover	{
+		color		:	#336;
+		background	:	#DD8;
+		text-decoration	:	none;
+	}
+
+.itemBorder	{
+		border		:	1px solid #EEE
+	}                                         
+.itemText	{
+		text-decoration	:	none;
+		color		:	#EEE;
+		font		:	12px Verdana, san-serif;
+	}
+A.itemText:link, A.itemText:active, A.itemText:visited {                        
+		text-decoration	:	none;
+		color		:	#EEE;
+		font		:	12px Verdana, san-serif;
+	}
+A.itemText:hover	{
+		color		:	#DD8;
+		text-decoration	:	underline;
+	}
+
+.itemMain	{
+		text-decoration	:	none;
+		color		:	#EEE;
+		font		:	12px Verdana, san-serif;
+		font-weight	:	bold;
+	}
+A.itemMain:link, A.itemMain:active, A.itemMain:visited {
+		text-decoration	:	none;
+		color		:	#EEE;
+		font		:	12px Verdana, san-serif;
+		font-weight	:	bold;
+	}
+A.itemMain:hover	{
+		color		:	#DD8;
+		text-decoration	:	underline;
+		font-weight	:	bold;
+	}
